@@ -28,8 +28,8 @@ if (xaxis = 0 && yaxis = 0) {
 hspd = lengthdir_x(len, dir)
 yspd = lengthdir_y(len, dir)
 
-phy_position_x += round(hspd);
-phy_position_y += round(yspd); 
+phy_position_x += (hspd);
+phy_position_y += (yspd); 
 
 #endregion
 

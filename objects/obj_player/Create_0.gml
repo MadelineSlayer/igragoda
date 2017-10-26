@@ -12,6 +12,7 @@ enum states {
 }
 
 //states_array[states.idle]
+
 states_array[states.move] = scr_move_state;
 
 state = states.move;
