@@ -1,9 +1,10 @@
 fadeAlpha = clamp(fadeAlpha + (fadeState*fadeSpeed),0,1);
 if (fadeAlpha == 1){
+	fadeState = -1;
 	room_goto(tempTarget);
 		obj_player.x = newx;
 	obj_player.y = newy;
-	fadeState = -1;
+	
 }
 
 if (fadeAlpha == 0) && (fadeState == -1){
