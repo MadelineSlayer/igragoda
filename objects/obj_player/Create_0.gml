@@ -1,4 +1,4 @@
-spd = 2;
+spd = 1.73;
 hspd = 0;
 vspd = 0;
 len = 0;
