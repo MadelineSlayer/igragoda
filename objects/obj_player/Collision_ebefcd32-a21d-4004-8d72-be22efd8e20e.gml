@@ -2,9 +2,8 @@
 		var tempRoomFade;
 		tempRoomFade = instance_create_depth(x,y,-12000,obj_roomTransition);
 		tempRoomFade.tempTarget = other.new_room;
+		
+		obj_roomTransition.newx = other.new_x;
+		obj_roomTransition.newy = other.new_y;
+		
 	}
-	
-//	room_goto(other.new_room)	
-
-	x = other.new_x;
-	y = other.new_y;
