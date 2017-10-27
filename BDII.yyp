@@ -383,6 +383,14 @@
             }
         },
         {
+            "Key": "cff50a1c-81ab-4d89-a6ce-b4d1b5e9aea2",
+            "Value": {
+                "id": "c924ba0f-626d-4b7e-b56c-9a93d130b318",
+                "resourcePath": "objects\\obj_roomTransition\\obj_roomTransition.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "daf61aa1-656e-47e6-8e58-185159e7d98c",
             "Value": {
                 "id": "9c3e9e16-691b-4a9d-93bd-7eea9f42b089",
