@@ -5,5 +5,8 @@
 		
 		obj_roomTransition.newx = other.new_x;
 		obj_roomTransition.newy = other.new_y;
+		state = states.afk;
+		
+		alarm[0] = room_speed * 1;
 		
 	}

@@ -10,6 +10,8 @@ left_key = keyboard_check(ord("A"));
 right_key = keyboard_check(ord("D"));
 #endregion
 
+
+
 #region //movement
 
 xaxis = (right_key - left_key);

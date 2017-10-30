@@ -1,4 +1,4 @@
-spd = 1.73;
+spd = 2;
 hspd = 0;
 vspd = 0;
 len = 0;
@@ -9,12 +9,14 @@ face = RIGHT;
 enum states {
 	idle,
 	attack,
-	move
+	move,
+	afk
 }
 
 //states_array[states.idle]
 
 states_array[states.move] = scr_move_state;
+states_array[states.afk] = scr_afk_state;
 
 state = states.move;
 

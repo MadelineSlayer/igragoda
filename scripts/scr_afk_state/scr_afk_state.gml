@@ -1,0 +1,1 @@
+///scr_afk_state
