@@ -10,13 +10,15 @@ enum states {
 	idle,
 	attack,
 	move,
-	afk
+	afk,
+	battle
 }
 
 //states_array[states.idle]
 
 states_array[states.move] = scr_move_state;
 states_array[states.afk] = scr_afk_state;
+states_array[states.battle] = scr_afk_state;
 
 state = states.move;
 
