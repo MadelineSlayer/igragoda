@@ -5,4 +5,5 @@ if hp <= 0 {
 	obj_player.state = states.move;
 	obj_player.battle_enemy.dead=1;
 	instance_destroy();
+	
 }
