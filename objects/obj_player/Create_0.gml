@@ -5,7 +5,9 @@ len = 0;
 dolboeb=true;
 
 face = RIGHT;
-
+battle_enemy= noone;
+last_room_battle = noone;
+battle_id=noone;
 enum states {
 	idle,
 	attack,

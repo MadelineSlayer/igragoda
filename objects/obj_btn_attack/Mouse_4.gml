@@ -1,1 +1,3 @@
-room_goto(obj_battle_ai.last_room);
+obj_player.x -=5;
+//room_goto(obj_player.last_room_battle);
+obj_player.battle_id.hp=00;

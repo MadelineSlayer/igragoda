@@ -1,9 +1,8 @@
-if enemy_hp <= 0 {
-	room_goto(last_room);
-	obj_player.state = states.move;
-	
 
-	with (last_enemy) {
-		instance_destroy();	
-	}
+if hp <= 0 {
+	
+	room_goto(obj_player.last_room_battle);
+	obj_player.state = states.move;
+	obj_player.battle_enemy.dead=1;
+	instance_destroy();
 }
