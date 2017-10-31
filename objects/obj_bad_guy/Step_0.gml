@@ -3,5 +3,6 @@
 
 
 if dead=1{
-instance_destroy();	
+	show_debug_message("dead");
+	instance_destroy();	
 }

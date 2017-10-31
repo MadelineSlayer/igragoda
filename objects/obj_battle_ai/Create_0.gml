@@ -1,4 +1,4 @@
 enemy = 1;
-last_room = noone;
-last_enemy = noone;
-hp=obj_player.battle_enemy.hp;
+hp=0;
+finished = false;
+close_event=false;
